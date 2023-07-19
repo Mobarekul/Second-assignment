@@ -179,6 +179,33 @@ figcaption {
   margin-bottom: 120px;
   margin-top: 24px;
 }
+.blackish {
+  position: relative;
+}
+
+.wtch {
+  position: absolute;
+
+  text-align: center;
+  top: 40%;
+  left: 35%;
+
+  font-size: 20px;
+
+  font-weight: 600;
+
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+#video-img {
+  position: relative;
+}
+.blackish {
+  position: absolute;
+}
 .play {
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   background-clip: text;
