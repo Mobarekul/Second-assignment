@@ -1,0 +1,43 @@
+/* Nav responsive */
+/* For Mobile */
+@media screen and (max-width: 786px) {
+  nav {
+    display: flex;
+    padding: 30px 24px;
+    justify-content: space-between;
+    background: #fff;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .nav-list {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .about {
+    flex-direction: column;
+  }
+  .follow-us {
+    display: flex;
+
+    justify-content: center;
+    padding: 10px 20px;
+    width: 212px;
+    height: 25px;
+    margin: 0 auto;
+  }
+}
+/* For 1024px */
+@media screen and (max-width: 1024px) and (min-width: 786px) {
+  nav {
+    display: flex;
+    padding: 38px 240px;
+    justify-content: center;
+    background: #fff;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
