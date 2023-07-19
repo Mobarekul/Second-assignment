@@ -50,6 +50,25 @@
     flex-direction: column;
     align-items: center;
   }
+  .horse {
+    display: flex;
+
+    flex-direction: column;
+  }
+  .horse-img {
+    padding-left: 70px;
+  }
+  .horseman {
+    width: 100%;
+  }
+  .doll {
+    position: absolute;
+    bottom: 20px;
+    left: -20%;
+    bottom: -75px;
+    width: 50%;
+    padding-left: 70px;
+  }
 }
 
 /* For 1024px */
@@ -83,5 +102,24 @@
     margin-top: 48px;
     flex-wrap: wrap;
     align-items: center;
+  }
+  .horse {
+    display: flex;
+
+    flex-direction: column;
+  }
+  .horse-img {
+    padding-left: 70px;
+  }
+  .horseman {
+    width: 80%;
+  }
+  .doll {
+    position: absolute;
+    bottom: 20px;
+    left: -20%;
+    bottom: -75px;
+
+    padding-left: 70px;
   }
 }
