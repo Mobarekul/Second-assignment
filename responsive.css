@@ -173,7 +173,7 @@
     gap: 20px;
   }
   body {
-    width: 56vh;
+    width: 100vw;
   }
 }
 
@@ -227,5 +227,8 @@
     bottom: -75px;
 
     padding-left: 70px;
+  }
+  body {
+    width: 100vw;
   }
 }
